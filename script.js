@@ -17,9 +17,9 @@ const estudantes = [
   estudantes.forEach(estudante => {
     const media = calcularMedia(estudante);
     if (media >= 7) {
-      alert(`${estudante.nome} obteve média ${media} e foi aprovado no concurso.`);
+      alert(`${estudante.nome} obteve média ${media} \n e foi aprovado no concurso.`);
     } else {
-      alert(`${estudante.nome} obteve média ${media} e não foi aprovado no concurso.`);
+      alert(`${estudante.nome} obteve média ${media} \n e não foi aprovado no concurso.`);
     }
   });
   
